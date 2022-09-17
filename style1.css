@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    display: flex;
+    list-style:;
+    max-width:700px;
+    margin-block: 2rem;
+    margin-inline: auto;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  li {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 3rem;
+  
+    aspect-ratio: 2/1;
+    width: 100%;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    
+  }
+  
+  li:nth-child(1) {        
+  }
+  
+  li:nth-child(2) {
+    
+  }
+
+  li:nth-child(3) {
+    
+  }
+
+  li:nth-child(4) {
+  }
+
+
+  .carousel__navigation-button {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: transparent;
+    background-clip: content-box;
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    font-size: 0;
+    transition: transform 0.1s;
+  }
